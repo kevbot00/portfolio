@@ -1,9 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Practice Portfolio Project
+=======
+# Kevin Yang's Dev Portfolio
+>>>>>>> be088a9119b749b2a92e710934b16f3d594ed7bf
 
-- This project will be updated over time with various sections.
-- You should work on enhancing this when you need to take a break on your current project.
+Welcome to my repo where I keep up to date my portfolio. If you have any questions or would like to reach out, please message me at:
+kyang812@yahoo.com.
 
+<<<<<<< HEAD
 ### Featureset 1 (Do this when asked to, not before - week 3)
 - Dev story copy
 	- Replace the title "GRAYSCALE" in the main page with your name
@@ -76,8 +81,13 @@
 Welcome to my repo where I keep up to date my portfolio. If you have any questions or would like to reach out, please message me at:
 kyang812@yahoo.com.
 
+=======
+>>>>>>> be088a9119b749b2a92e710934b16f3d594ed7bf
 ```javascript
 function hello() {
   console.log("Thanks for stopping by, hope you're having a great one!");
 }# portfolio
+<<<<<<< HEAD
 >>>>>>> 61b22750cfc42f03bb1e364dbc1a71b5617b9b97
+=======
+>>>>>>> be088a9119b749b2a92e710934b16f3d594ed7bf
