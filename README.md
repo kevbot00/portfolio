@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Practice Portfolio Project
 
 - This project will be updated over time with various sections.
@@ -69,3 +70,14 @@
 
 ### Featureset 7 (Do this when asked to, not before - week 9)
 - Contact form email sending (sendgrid)
+=======
+# Kevin Yang's Dev Portfolio
+
+Welcome to my repo where I keep up to date my portfolio. If you have any questions or would like to reach out, please message me at:
+kyang812@yahoo.com.
+
+```javascript
+function hello() {
+  console.log("Thanks for stopping by, hope you're having a great one!");
+}# portfolio
+>>>>>>> 61b22750cfc42f03bb1e364dbc1a71b5617b9b97
