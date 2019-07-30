@@ -11,12 +11,12 @@ foreach ($_POST as $key => $value) {
 $mail = new PHPMailer\PHPMailer\PHPMailer;
 $mail->SMTPDebug = 0;           // Enable verbose debug output. Change to 0 to disable debugging output.
 $mail->isSMTP();                // Set mailer to use SMTP.
-$mail->Host = 'smtp.mail.yahoo.com'; // Specify main and backup SMTP servers.
+$mail->Host = 'tls://smtp.gmail.com:587'; // Specify main and backup SMTP servers.
 $mail->SMTPAuth = true;         // Enable SMTP authentication
 $mail->Username = EMAIL_USER;   // SMTP username
 $mail->Password = EMAIL_PASS;   // SMTP password
 $mail->SMTPSecure = 'tls';      // Enable TLS encryption, `ssl` also accepted, but TLS is a newer more-secure encryption
-$mail->Port = 465;              // TCP port to connect to
+$mail->Port = 587;              // TCP port to connect to
 $options = array(
     'ssl' => array(
         'verify_peer' => false,
@@ -27,8 +27,8 @@ $options = array(
 $mail->smtpConnect($options);
 $mail->From = $_POST['email'];  // sender's email address (shows in "From" field)
 $mail->FromName = $_POST['name'];   // sender's name (shows in "From" field)
-$mail->addAddress('kyang812@yahoo.com', 'Kevin Yang');  // Add a recipient (name is optional)
-$mail->addAddress('kyang812@yahoo.com');  // Add a second recipient
+$mail->addAddress('kevdev000@gmail.com', 'Kevin Yang');  // Add a recipient (name is optional)
+// $mail->addAddress('kyang812@yahoo.com');  // Add a second recipient
 $mail->addReplyTo($_POST['email']);  // Add a reply-to address
 //$mail->addCC('cc@example.com');
 //$mail->addBCC('bcc@example.com');
